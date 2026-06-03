@@ -42,10 +42,13 @@
     .subscriber-country-types,
     #purchase-summary-wrapper,
     #submit-btn-section,
-    #payment-area-wrapper,
     .row:nth-child(6),
     .row:nth-child(8),
     .row > .col-lg-8 > :nth-child(5) {
       display: none;
+    }
+
+    #payment-area-wrapper {
+      display: none!important;
     }
     
