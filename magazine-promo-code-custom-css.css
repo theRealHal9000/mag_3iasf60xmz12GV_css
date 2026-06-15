@@ -1,87 +1,94 @@
-/*remove renew links for promos*/
-.col-sm-12.col-md-offset-1.col-md-10.col-lg-offset-2.col-lg-8.text-center > .nav.nav-pills.subscriber-links{display: none}
+.col-sm-12.col-md-offset-1.col-md-10.col-lg-offset-2.col-lg-8.text-center > .nav.nav-pills.subscriber-links {
+  display: none;
+}
 
 .col-xs-4 {
-    width: 95%
-    }
-    
-.btn > .apply-promo-code {
-      font-size:160%;
-      background-image: linear-gradient(-180deg, #35BAEC, #2F87C2);
-      border-radius: 6px;
-      box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
-      color: #FFFFFF;
-      cursor: pointer;
-      display: inline-block;
-      outline: 0;
-      overflow: hidden;
-      padding: 5px 15px;
-      pointer-events: auto;
-      position: relative;
-      text-align: center;
-      touch-action: manipulation;
-      user-select: none;
-      -webkit-user-select: none;
-      vertical-align: top;
-      white-space: nowrap;
-      width: 100%;
-    }
-    
-    .btn > .apply-promo-code:hover {
-      box-shadow: rgba(0,0,0,0.5) 0 3px 8px;
-      transition-duration: .1s;
-    }
+  width: 100%;
+}
+
+.col-xs-4.text-right {
+  margin-right: 28rem;
+}
 
 .price-radio-div:before {
-    content: 'Your promo code can be found above your name on the reply card. Example code: F123A';
-    
-    
-.row.hidden-xs > .col-xs-8 {
-    display: none;
-    margin-bottom: 0 !important;
-    }
-    
-    .text-success,
-    #purchase-summary-wrapper,
-    #submit-btn-section,
-    .subscriber-country-types,
-    .row:nth-child(6),
-    .row:nth-child(8),
-    .row > .col-lg-8 > :nth-child(5) {
-      display: none;
-    }
+  content: 'The promo code is found above your name on the reply card. Example code: F123A';
+}
 
-    #payment-area-wrapper {
-      display: none!important;
-    }
+.btn > .apply-promo-code {
+  font-size: 160%;
+  background-image: linear-gradient(-180deg, #35BAEC, #2F87C2);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  overflow: hidden;
+  padding: 5px 15px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.btn > .apply-promo-code:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0 3px 8px;
+  transition-duration: .1s;
+}
+
+.row.hidden-xs > .col-xs-8 {
+  display: none;
+  margin-bottom: 0 !important;
+}
+
+.text-success,
+#purchase-summary-wrapper,
+#submit-btn-section,
+.subscriber-country-types,
+.row:nth-child(6),
+.row:nth-child(8),
+.row > .col-lg-8 > :nth-child(5) {
+  display: none;
+}
+
+#payment-area-wrapper {
+  display: none !important;
+}
 
 @media (max-width: 767px) {
-    .visible-xs > .col-xs-12:first-child {
+  .visible-xs > .col-xs-12:first-child {
     display: none !important;
-    }
-    .btn > .apply-promo-code-xs {
-        font-size: 125%;
-        background-image: linear-gradient(-180deg, #35BAEC, #2F87C2);
-        border-radius: 6px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
-        color: #FFFFFF;
-        cursor: pointer;
-        display: inline-block;
-        outline: 0;
-        overflow: hidden;
-        padding: 4px 5px;
-        pointer-events: auto;
-        position: relative;
-        text-align: center;
-        touch-action: manipulation;
-        user-select: none;
-        -webkit-user-select: none;
-        vertical-align: top;
-        white-space: nowrap;
-        width: 100%;}
-    
-    .btn > .apply-promo-code-xs:hover {
-      box-shadow: rgba(0,0,0,0.5) 0 3px 8px;
-      transition-duration: .1s;
-    }
   }
+
+  .btn > .apply-promo-code-xs {
+    font-size: 125%;
+    background-image: linear-gradient(-180deg, #35BAEC, #2F87C2);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    padding: 4px 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .btn > .apply-promo-code-xs:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0 3px 8px;
+    transition-duration: .1s;
+  }
+}
