@@ -42,6 +42,7 @@
  
     #purchase-summary-wrapper,
     #submit-btn-section,
+    .subscriber-country-types,
     .row:nth-child(6),
     .row:nth-child(8),
     .row > .col-lg-8 > :nth-child(5) {
@@ -51,4 +52,38 @@
     #payment-area-wrapper {
       display: none!important;
     }
+
+@media (max-width: 767px) {
+    .visible-xs > .col-xs-12:first-child {
+    display: none !important;
+    }
+    .btn > .apply-promo-code {
+      font-size:160%;
+      background-image: linear-gradient(-180deg, #35BAEC, #2F87C2);
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      outline: 0;
+      overflow: hidden;
+      padding: 0 20px;
+      pointer-events: auto;
+      position: relative;
+      text-align: center;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: top;
+      white-space: nowrap;
+      width: 100%;
+    }
+    
+    .btn > .apply-promo-code:hover {
+      box-shadow: rgba(0,0,0,0.5) 0 3px 8px;
+      transition-duration: .1s;
+    }
+  }
+
+
     
