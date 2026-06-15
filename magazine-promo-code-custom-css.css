@@ -3,11 +3,7 @@
 }
 
 .col-xs-4 {
-  width: 100%;
-}
-
-.col-xs-4.text-right {
-  margin-right: 28rem;
+  width: 65%;
 }
 
 .price-radio-div:before {
